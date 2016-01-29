@@ -10,12 +10,13 @@
 package sha256_crypt
 
 import (
-	. "antihe.ro/pwhash/common"
 	"bytes"
 	"crypto/rand"
 	"crypto/sha256"
 	"fmt"
 	"strconv"
+
+	. "github.com/ncw/pwhash/common"
 )
 
 const (

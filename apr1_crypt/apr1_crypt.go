@@ -11,11 +11,12 @@
 package apr1_crypt
 
 import (
-	. "antihe.ro/pwhash/common"
 	"bytes"
 	"crypto/md5"
 	"crypto/rand"
 	"fmt"
+
+	. "github.com/ncw/pwhash/common"
 )
 
 const (

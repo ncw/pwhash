@@ -13,6 +13,9 @@ hashing implementations to ensure compatibility with them.
 
 To install pwhash, use the `go get` command.
 
-    go get antihe.ro/pwhash
+    go get github.com/ncw/pwhash
 
 I hope you find this library to be useful and easy to use!
+
+**NB** this is a mirror of the original code at `antihe.ro/pwhash`
+which is no longer available.
